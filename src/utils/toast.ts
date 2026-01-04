@@ -5,6 +5,8 @@ export const showSuccess = (message: string) => {
 };
 
 export const showError = (message: string) => {
+  // Dismiss all existing toasts before showing a new error to prevent stacking
+  toast.dismiss(); 
   toast.error(message);
 };
 
