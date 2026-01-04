@@ -1,3 +1,4 @@
+#logs
 {
   "files": [],
   "references": [
@@ -17,3 +18,4 @@
     "strictNullChecks": false
   }
 }
+
