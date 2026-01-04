@@ -34,7 +34,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart }) => {
           disabled={!isInStock}
           className="w-full"
         >
-          {isInStock ? "Add to Cart" : "Out of Stock"}
+          Add to Cart
         </Button>
       </CardFooter>
     </Card>
