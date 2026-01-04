@@ -1,3 +1,4 @@
+#logs
 {
   "compilerOptions": {
     "target": "ES2020",
@@ -28,3 +29,4 @@
   },
   "include": ["src"]
 }
+
